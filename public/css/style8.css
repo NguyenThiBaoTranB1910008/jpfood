@@ -1,0 +1,336 @@
+header{
+    background-color:rgba(12, 11, 9, 0.6);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top:0;
+}
+
+body{
+    background-color:#f6f5f5;
+}
+
+.footer{
+    background-color: #e0c1bb;
+    color:#86340A;
+}
+
+.nav-link{
+    color: #fff; 
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    color: #cea55f;
+}
+
+#logo{
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#logoname,.title{
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px;
+    color: #86340A;
+}
+
+#logoname{
+    float:right;
+    color: #fff;
+}
+
+/* Home */
+.carousel-item{
+    height: 100vh;
+}
+
+.visit,.open_time,.about-introduce,footer{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.visit{
+    font-size: 40px;
+}
+
+
+#about-introduce-h1{
+    font-family:'Playfair Display', serif;
+}
+
+.about{
+    background-image: url("https://wallpapercave.com/wp/wp2600106.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.about-char{
+    font-family:'Playfair Display', serif;;
+    font-size: 50px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.55);
+    border: 4px double #ffc101;
+    padding: 20px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.about-introduce{
+    padding: 80px;
+}
+
+/*form*/
+.login{
+    /* min-height: 600px; */
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.signup{
+    background-color:#cc704b ;
+}
+
+.form-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.form-border{
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px rgb(85, 82, 82);
+}
+
+#booktable{
+    font-family: 'Crimson Pro', serif;
+    background-color: #fff;
+}
+
+#booktable input,#booktable article,#booktable textarea{
+    background-color: #f6f5f5;
+}
+
+article {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid #055052;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+article input{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    opacity: 0;
+}
+
+article div{
+    width: 100%;
+    height: 100%;
+}
+
+input[type=radio]:checked ~ div {
+    background-color: #055052;
+    color: #FFF;
+}
+
+textarea,#bookTablebtn{
+    width: 100%;
+}
+
+.thank{
+    font-family: 'Crimson Pro', serif;
+    color: red;
+}
+tr,td{
+    border: 1px solid #000;
+}
+
+/* button */
+
+.btn-view{
+    text-decoration: none;
+    color: #fff!important;
+    background-color: rgb(206, 165, 95)!important;
+    padding: 5px 9px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    border-radius: 22px;
+}
+
+.btn-text{
+    border: none !important;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-text:hover{
+    color: #000;
+}
+
+.input_number {
+    border-radius: 5px;
+    border-color:purple;
+    color: #000;
+}
+
+.width_cart{
+    width: 900px;
+}
+
+.button:hover {
+background: #008168;
+}
+
+.button:active {
+background: #006e58;
+}
+
+.button__text{
+    width: 160px !important;
+}
+
+.img_menus{
+    width: 80%;
+    height: 65%;
+}
+
+.w-300{
+    width: 300px;
+}
+
+#hi{
+    width: 500px;
+    min-height:500px;
+    border: 1px solid #000;
+    margin:auto;
+}
+
+.right{
+    text-align:right;
+}
+
+.menu { 
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) ), url('/css/images/me9.jpg');
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 600px;   
+    z-index: -1;
+    
+}
+
+
+#menu-title {
+    font-size: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    padding-top: 17%;
+    font-family: "PT Serif",serif;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.menu_1{
+    padding: 40px 0 20px 0;
+    background-color: #fff;
+    margin: 55px 0;
+    text-align: center;
+}
+
+.menu_title{
+    font-family: "PT Serif",serif;
+}
+
+.cart { 
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) ), url('/css/images/cart-6.jpg');
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 300px;   
+    z-index: -1;
+    position: relative;
+}
+
+
+#cart-title {
+    font-size: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    padding-top: 10%;
+    font-family: "PT Serif",serif;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.cart-item{
+    background-color: #fff;
+    margin: 80px auto;
+}
+
+.address{
+    color: #cea55f;
+}
+
+.update{
+    position: absolute;
+    right: 478px;
+}
+
+.p-6{
+    padding-top: 6%!important;
+}
+
+.p-5{
+    padding-top: 5%!important;
+}
+
+.bill{
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(206, 165, 95);
+    padding: 5px 9px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    padding: 10px;
+    margin: 318px 10px 20px 0;
+}
+
+.bill:hover{
+    color: #000;
+}
+
+.form_address{
+    background-color: #f6f5f5;
+}
+
+.mt-8{
+    margin-top: 8rem!important;
+}
+
+.bg{
+    background-color: #fff;
+}

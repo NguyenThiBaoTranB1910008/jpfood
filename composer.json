@@ -1,0 +1,12 @@
+{
+    "require": {
+        "illuminate/database": "^8.83",
+        "bramus/router": "^1.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
