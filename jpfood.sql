@@ -95,7 +95,7 @@ INSERT INTO `product` (`id`, `name`, `image`, `price`) VALUES
 (4, 'Cá hồi chiên xù', 'css/images/cahoichien.jpg', 105000),
 (5, 'Sushi Trứng', 'css/images/sushitrung.jpg', 90000),
 (6, 'Sò Đỏ', 'css/images/sodo1.jpg', 280000),
-(7, 'Soup Rong Biển', 'css/images/souprongbien.jpg', 55000),
+(7, 'Soup Rong Biển', 'css/images/soupmiso.jpg', 55000),
 (8, 'Wasabi', 'css/images/mutat.jpg', 30000),
 (9, 'Rong Nho', 'css/images/rongnho.jpg', 50000);
 
